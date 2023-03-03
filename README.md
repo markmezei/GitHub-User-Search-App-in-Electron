@@ -11,5 +11,4 @@ To run the application, use this command
 
 
 To make an executable file, use this command
-
 ```npm run build```
