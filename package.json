@@ -1,0 +1,21 @@
+{
+  "name": "github-user-search-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^23.1.0",
+    "electron-packager": "^17.1.1"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "electron-notification-shim": "^1.1.0",
+    "node-notifier": "^10.0.1"
+  }
+}

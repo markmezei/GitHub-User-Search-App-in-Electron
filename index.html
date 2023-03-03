@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/1d8561f7eb.js" crossorigin="anonymous"></script>
+    <script src="renderer.js" defer></script>
+    <title>GitHub User Search App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="title">devfinder</h1>
+            <button id="switchTheme"></button>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search GitHub username...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="user">
+            <div class="profilePhoto">
+                <img src="" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <div class="user-date">
+                        <div class="username">
+                            <a href=""></a>
+                        </div>
+                        <div class="joinDate">
+                            <p></p>
+                        </div>
+                    </div> 
+                    <div class="name-bio">
+                        <div class="name">
+                            <p></p>
+                        </div>
+                        <div class="bio">
+                            <p></p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="stats">
+                    <div>
+                        <p>Repos</p>
+                        <h1 id="repos"></h1>
+                    </div>
+                    <div>
+                        <p>Followers</p>
+                        <h1 id="followers"></h1>
+                    </div>
+                    <div>
+                        <p>Following</p>
+                        <h1 id="following"></h1>
+                    </div>
+                </div>
+                <div class="bottom">   
+                    <div class="location">
+                        <p></p>
+                    </div>
+                    <div class="social">
+                        <p></p>
+                    </div>
+                    <div class="website">
+                        <a href=""></a>
+                    </div>
+                    <div class="company">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
